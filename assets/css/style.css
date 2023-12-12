@@ -9,11 +9,11 @@
 }
 
 .row {
-    border: 2px dashed lime;
+    /* border: 2px dashed lime; */
 }
 
 .container {
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .menu li {
@@ -26,15 +26,28 @@ header .header_bottom .star_line hr,
     width: 15%;
 }
 
-.portfolio_header {
+.portfolio_header, .contact_me_header {
     color: #2c3f50;
 }
 
-.portfolio_header .star_line hr {
+.portfolio_header .star_line hr,
+.contact_me_header .star_line hr {
     border: 2px solid #2c3f50;
     width: 15%;
 }
 
 .download_btn {
     border: 1px solid white;
+}
+
+.contact_me_form > .row {
+    border-bottom: 1px solid grey;
+}
+
+.message_row {
+    height: 200px;
+}
+
+.send_btn {
+    background-color: #1abc9c;
 }
