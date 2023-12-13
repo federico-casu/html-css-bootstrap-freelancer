@@ -1,7 +1,15 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .header_top {
     /* border: 1px solid red; */
     
     background-color: #2c3f50;
+}
+
+.header_bottom {
+    padding-top: 80px
 }
 
 .header_bottom, .about, .send_btn {
@@ -9,11 +17,11 @@
 }
 
 .row {
-    border: 2px dashed lime;
+    /* border: 2px dashed lime; */
 }
 
 .container {
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .menu li {
@@ -63,4 +71,16 @@ header .header_bottom .star_line hr,
 
 .footer_bottom {
     background-color: #2c3f50;
+}
+
+#btn_white {
+    color: white;
+}
+
+.navbar-toggler-icon {
+    filter: invert(1) brightness(100);
+}
+
+.navbar-toggler {
+    border: 1px solid grey;
 }

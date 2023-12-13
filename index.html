@@ -19,13 +19,13 @@
 <body>
     <header class="text-white">
 
-        <div class="header_top">
+        <div class="header_top fixed-top">
             <div class="container">
-                <div class="row py-3 align-items-center">
+                <!-- <div class="row py-3 align-items-center">
                     <div class="col pe-0">
                         <h1 class="fs-6 fw-bold text-uppercase mb-0">start bootstrap</h1>
                     </div>
-                    <!-- <div class="col"></div> -->
+                    
                     <div class="col text-end menu">
                         <i class="fa-solid fa-bars text-white-50 d-md-none"></i>
                         <ul class="d-none d-md-flex justify-content-end gap-3 list-unstyled text-uppercase mb-0 fs-6">
@@ -34,7 +34,23 @@
                             <li><a class="text-decoration-none text-white" href="#">contact</a></li>
                         </ul>
                     </div>
-                </div>
+                </div> -->
+
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid">
+                        <a class="navbar-brand text-white text-uppercase fw-bold" href="#">start bootstrap</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                        <div class="navbar-nav text-end">
+                            <a class="nav-link text-white text-capitalize" aria-current="page" href="#portfolio">portfolio</a>
+                            <a class="nav-link text-white text-capitalize" href="#about">about</a>
+                            <a class="nav-link text-white text-capitalize" href="#contact">contact</a>
+                        </div>
+                        </div>
+                    </div>
+                </nav>
             </div>
         </div>
 
@@ -57,7 +73,7 @@
     </header>
     
     <main>
-        <section class="container portfolio py-4">
+        <section id="portfolio" class="container portfolio py-5">
             <div class="row">
                 <div class="col-12 portfolio_header text-center text-uppercase">
                     <h5>portfolio</h5>
@@ -102,8 +118,8 @@
             </div>
         </section>
 
-        <div class="about">
-            <section class="container about py-4 text-white">
+        <section id="about" class="about pt-5">
+            <div class="container about py-4 text-white">
                 <div class="row">
                     <div class="col-12 about_header text-center text-uppercase">
                         <h5>about</h5>
@@ -129,11 +145,11 @@
                         download
                     </a>
                 </div>
-            </section>
-        </div>
+            </div>
+        </section>
         
 
-        <section class="container contact_me py-4">
+        <section id="contact" class="container contact_me py-5">
             <div class="row">
                 <div class="col-12 contact_me_header text-center text-uppercase">
                     <h5>contact me</h5>
