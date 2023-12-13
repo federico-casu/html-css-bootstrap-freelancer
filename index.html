@@ -150,7 +150,7 @@
         
 
         <section id="contact" class="container contact_me py-5">
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-12 contact_me_header text-center text-uppercase">
                     <h5>contact me</h5>
                     <div class="row star_line justify-content-center align-items-center">
@@ -172,7 +172,41 @@
                 <div class="col-7 d-flex align-items-center p-0">
                     <a class="send_btn text-decoration-none text-white text-center px-2 py-1 rounded-2 text-capitalize" href="#">send</a>
                 </div>
+            </div> -->
+
+            <div class="row">
+                <div class="col-12 contact_me_header text-center text-uppercase">
+                    <h5>contact me</h5>
+                    <div class="row star_line justify-content-center align-items-center">
+                        <hr class="col-2 m-0 opacity-100 rounded-3">
+                        <span class="col-1 fs-1 p-0 mx-3 text-center">&bigstar;</span>
+                        <hr class="col-2 m-0 opacity-100 rounded-3">
+                    </div>
+                </div>
             </div>
+
+            <div class="row justify-content-center">
+                <div class="col-7">
+                    <form>
+                        <div class="mb-3">
+                            <input type="name" class="form-control" id="inputName" placeholder="Name">
+                        </div>
+                        <div class="mb-3">
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+                        </div>
+                        <div class="mb-3">
+                          <input type="tel" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="Phone Number" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <textarea name="message" id="message" rows="10" placeholder="Message" class="form-control"></textarea>
+                        </div>
+                        <a class="send_btn text-decoration-none text-white text-center px-3 py-2 rounded-2 text-capitalize" href="#">send</a>
+                        <!-- <button type="submit" class="btn btn-primary">Send</button> -->
+                      </form>
+                </div>
+            </div>
+            
+
         </section>
     </main>
     

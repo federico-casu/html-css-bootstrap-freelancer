@@ -84,3 +84,9 @@ header .header_bottom .star_line hr,
 .navbar-toggler {
     border: 1px solid grey;
 }
+
+.form-control {
+    border: 0;
+    border-bottom: 1px solid grey;
+    border-radius: 0;
+}
